@@ -26,7 +26,6 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
       localStorage.removeItem("auth:user"); 
     }
   }), [usuario]);
-
   return <AuthContext.Provider value={value}>{children}</AuthContext.Provider>;
 }
-
+export const useAuth = () => useContext(AuthContext);
