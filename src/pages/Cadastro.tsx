@@ -19,8 +19,8 @@ export default function Cadastro() {
     alert("Cadastro realizado.");
     navigate("/login");
   }
-  
- return (
+
+  return (
     <div className="max-w-md mx-auto p-4 mt-10">
       <div className="bg-slate-900/70 border border-slate-800 rounded-2xl shadow-xl p-8">
         <h1 className="text-3xl font-bold text-center mb-6">Cadastro</h1>
@@ -48,4 +48,3 @@ export default function Cadastro() {
     </div>
   );
 }
-

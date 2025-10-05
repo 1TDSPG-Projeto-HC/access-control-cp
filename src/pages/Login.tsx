@@ -17,6 +17,7 @@ export default function Login() {
     login(user);
     navigate("/home");
   }
+
   return (
     <div className="max-w-md mx-auto p-4 mt-10">
       <div className="bg-slate-900/70 border border-slate-800 rounded-2xl shadow-xl p-8">
