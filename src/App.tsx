@@ -1,6 +1,9 @@
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import Login from "./pages/Login";
 import Cadastro from "./pages/Cadastro";
+import Home from "./pages/Home";
+import ProtectedRoute from "./routes/ProtectedRoute";
+import Header from "./components/Header";
 
 export default function App() {
   return (
