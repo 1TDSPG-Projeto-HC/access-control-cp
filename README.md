@@ -1,6 +1,6 @@
 # Access Control CP — Versão Visual
 
-Autenticação com React Hook Form e json-server, layout simples e moderno
+Autenticação com React Hook Form, Tailwind e json-server. Layout simples, sem comentários, seguindo os requisitos
 
 ## Integrantes
 - Pedro Vaz — RM: 566551
@@ -19,3 +19,7 @@ Autenticação com React Hook Form e json-server, layout simples e moderno
 ```bash
 npm i
 npm run dev
+```
+Em outro terminal:
+```bash
+npm run api
